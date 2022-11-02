@@ -1,0 +1,81 @@
+/* CSS reset start */
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  background: transparent;
+  font-family: inherit;
+}
+a {
+  text-decoration: none;
+}
+a img {
+  border: none;
+}
+
+button,
+a {
+  cursor: pointer;
+  color: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+button,
+textarea,
+select {
+  border-radius: 0;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  display: block;
+}
+
+/* CSS reset end */
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  margin: 0 auto;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: rgb(89, 101, 117);
+  height: 800px;
+  width: 600px;
+  border-radius: 50px;
+  opacity: 0.8;
+}
+#root form input {
+  align-self: center;
+  background-color: rgb(243, 240, 234);
+  text-align: center;
+  height: 30px;
+  font-size: 16px;
+}
+#save {
+  background-color: rgb(62, 210, 161);
+}
+#del {
+  background-color: brown;
+}
